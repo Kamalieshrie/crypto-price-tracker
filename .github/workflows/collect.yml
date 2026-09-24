@@ -2,7 +2,7 @@ name: Collect crypto prices
 
 on:
   schedule:
-    - cron: "0 * * * *"     # every hour, on the hour (UTC)
+    - cron: "17 * * * *"     # every hour, on the hour (UTC)
   workflow_dispatch:         # lets you run it manually from the Actions tab
 
 permissions:
